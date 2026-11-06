@@ -54,7 +54,7 @@ The default uses the deposited statistical JSON files and generates:
 - Figure 9: `reproduced_figures/figures/facetplot_llama.png`
 - Figure 10: `reproduced_figures/figures/facetplot_gemma.png`
 
-This regenerates plots from saved statistics; it does not rerun the simulations or independently recompute their statistical tests. See [reproducibility notes](REPRODUCIBILITY.md) for validation and limitations.
+This regenerates plots from saved statistics; it does not rerun the simulations or independently recompute their statistical tests.
 
 ## Recompute statistics from raw logs
 
@@ -78,7 +78,7 @@ The archived simulator and its dependencies are in `LLM_OD_model/`:
 python -m pip install -r LLM_OD_model/requirements.txt
 ```
 
-New simulations require a configured model backend and matching agent profiles. **The deposited simulation quick start is not ready to run unchanged**: the supplied profiles are under `sample_data/llama/` and identify `llama3.1`, while the example references Llama 3.2; the agent loader also rewrites nested paths. See [the known issues](REPRODUCIBILITY.md#simulation-configuration-limitations) before attempting a new run. The imported scientific code is preserved byte-for-byte rather than silently changing the archived experiment implementation.
+New simulations require a configured model backend and matching agent profiles. **The deposited simulation quick start is not ready to run unchanged**: the supplied profiles are under `sample_data/llama/` and identify `llama3.1`, while the example references Llama 3.2; the agent loader also rewrites nested paths. The imported scientific code is preserved byte-for-byte rather than silently changing the archived experiment implementation.
 
 The deposited `execution.py` writes new logs to the repository-level `results/` directory, a sibling of `LLM_OD_model/`. The Zenodo description's `LLM_OD_model/results/` path is incorrect for this deposited code.
 
@@ -90,6 +90,6 @@ The code and analysis files were imported from the checksum-verified Zenodo arch
 python scripts/verify_archive_files.py
 ```
 
-The GitHub README, reproducibility notes, analysis dependency list, download helper, and provenance files are repository additions. They are not presented as files already contained in the deposit. The deposit identifies its license as **CC BY 4.0**; see the [record's license information](https://zenodo.org/records/22938433).
+The GitHub README, analysis dependency list, download helper, and provenance files are repository additions. They are not presented as files already contained in the deposit. The deposit identifies its license as **CC BY 4.0**; see the [record's license information](https://zenodo.org/records/22938433).
 
 Please cite the archived software/data version using DOI **10.5281/zenodo.22938433**, and cite the associated paper when its bibliographic details are available. Zenodo currently lists older repository names in its title and related links; use the DOI above to identify the exact deposit.
