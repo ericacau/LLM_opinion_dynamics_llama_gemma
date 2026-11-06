@@ -1,0 +1,101 @@
+model,condition,minority_fraction,homophily,discussant_group,opponent_group,neighbor_context,mean_probability_toward_opponent,sd_across_runs,n_runs,aggregate_permutation_p
+google_gemma-3-4b-it,opinion_distr_,0.5,0.0,low (0-3),low (0-3),opposing neighbors,1.000000,0.000000,3,0
+google_gemma-3-4b-it,opinion_distr_,0.5,0.0,low (0-3),low (0-3),mixed,0.011111,0.033333,10,0
+google_gemma-3-4b-it,opinion_distr_,0.5,0.0,low (0-3),high (4-6),opposing neighbors,0.002326,0.006977,10,0
+google_gemma-3-4b-it,opinion_distr_,0.5,0.0,low (0-3),high (4-6),mixed,0.050627,0.045057,10,0
+google_gemma-3-4b-it,opinion_distr_,0.5,0.0,low (0-3),high (4-6),supporting neighbors,1.000000,0.000000,10,0
+google_gemma-3-4b-it,opinion_distr_,0.5,0.0,high (4-6),low (0-3),opposing neighbors,0.206905,0.113716,10,0
+google_gemma-3-4b-it,opinion_distr_,0.5,0.0,high (4-6),low (0-3),mixed,0.008378,0.005864,10,0
+google_gemma-3-4b-it,opinion_distr_,0.5,0.0,high (4-6),low (0-3),supporting neighbors,0.070048,0.050338,10,0
+google_gemma-3-4b-it,opinion_distr_,0.5,0.0,high (4-6),high (4-6),opposing neighbors,0.789615,0.017451,10,0
+google_gemma-3-4b-it,opinion_distr_,0.5,0.0,high (4-6),high (4-6),mixed,0.039352,0.018753,10,0
+google_gemma-3-4b-it,opinion_distr_,0.5,0.0,high (4-6),high (4-6),supporting neighbors,0.867121,0.016017,10,0
+google_gemma-3-4b-it,opinion_distr_,0.5,0.25,low (0-3),low (0-3),opposing neighbors,0.837937,0.117818,10,0
+google_gemma-3-4b-it,opinion_distr_,0.5,0.25,low (0-3),low (0-3),mixed,0.004612,0.004574,10,0
+google_gemma-3-4b-it,opinion_distr_,0.5,0.25,low (0-3),low (0-3),supporting neighbors,0.265357,0.073531,10,0
+google_gemma-3-4b-it,opinion_distr_,0.5,0.25,low (0-3),high (4-6),opposing neighbors,0.005887,0.011781,10,0
+google_gemma-3-4b-it,opinion_distr_,0.5,0.25,low (0-3),high (4-6),mixed,0.056635,0.025348,10,0
+google_gemma-3-4b-it,opinion_distr_,0.5,0.25,low (0-3),high (4-6),supporting neighbors,0.999784,0.000649,10,0
+google_gemma-3-4b-it,opinion_distr_,0.5,0.25,high (4-6),low (0-3),opposing neighbors,0.342328,0.083186,10,0
+google_gemma-3-4b-it,opinion_distr_,0.5,0.25,high (4-6),low (0-3),mixed,0.007493,0.006353,10,0
+google_gemma-3-4b-it,opinion_distr_,0.5,0.25,high (4-6),high (4-6),opposing neighbors,0.792051,0.034363,10,0
+google_gemma-3-4b-it,opinion_distr_,0.5,0.25,high (4-6),high (4-6),mixed,0.036299,0.017547,10,0
+google_gemma-3-4b-it,opinion_distr_,0.5,0.25,high (4-6),high (4-6),supporting neighbors,0.882705,0.022057,10,0
+google_gemma-3-4b-it,opinion_distr_,0.5,0.5,low (0-3),low (0-3),opposing neighbors,0.683982,0.166081,10,0
+google_gemma-3-4b-it,opinion_distr_,0.5,0.5,low (0-3),low (0-3),mixed,0.001503,0.001003,10,0
+google_gemma-3-4b-it,opinion_distr_,0.5,0.5,low (0-3),low (0-3),supporting neighbors,0.179279,0.059912,10,0
+google_gemma-3-4b-it,opinion_distr_,0.5,0.5,low (0-3),high (4-6),opposing neighbors,0.035303,0.046970,10,0
+google_gemma-3-4b-it,opinion_distr_,0.5,0.5,low (0-3),high (4-6),mixed,0.015586,0.005444,10,0
+google_gemma-3-4b-it,opinion_distr_,0.5,0.5,low (0-3),high (4-6),supporting neighbors,0.992041,0.006677,10,0
+google_gemma-3-4b-it,opinion_distr_,0.5,0.5,high (4-6),low (0-3),opposing neighbors,0.168834,0.102322,10,0
+google_gemma-3-4b-it,opinion_distr_,0.5,0.5,high (4-6),low (0-3),mixed,0.001567,0.000942,10,0
+google_gemma-3-4b-it,opinion_distr_,0.5,0.5,high (4-6),high (4-6),opposing neighbors,0.747820,0.030520,10,0
+google_gemma-3-4b-it,opinion_distr_,0.5,0.5,high (4-6),high (4-6),mixed,0.026877,0.010135,10,0
+google_gemma-3-4b-it,opinion_distr_,0.5,0.5,high (4-6),high (4-6),supporting neighbors,0.889769,0.022776,10,0
+google_gemma-3-4b-it,opinion_distr_,0.5,0.75,low (0-3),low (0-3),opposing neighbors,0.559129,0.143100,10,0
+google_gemma-3-4b-it,opinion_distr_,0.5,0.75,low (0-3),low (0-3),mixed,0.000264,0.000380,10,0
+google_gemma-3-4b-it,opinion_distr_,0.5,0.75,low (0-3),low (0-3),supporting neighbors,0.108248,0.064524,10,0
+google_gemma-3-4b-it,opinion_distr_,0.5,0.75,low (0-3),high (4-6),mixed,0.007158,0.002578,10,0
+google_gemma-3-4b-it,opinion_distr_,0.5,0.75,low (0-3),high (4-6),supporting neighbors,0.965934,0.030118,10,0
+google_gemma-3-4b-it,opinion_distr_,0.5,0.75,high (4-6),low (0-3),opposing neighbors,0.175306,0.081368,10,0
+google_gemma-3-4b-it,opinion_distr_,0.5,0.75,high (4-6),low (0-3),mixed,0.000945,0.000754,10,0
+google_gemma-3-4b-it,opinion_distr_,0.5,0.75,high (4-6),high (4-6),opposing neighbors,0.715204,0.032286,10,0
+google_gemma-3-4b-it,opinion_distr_,0.5,0.75,high (4-6),high (4-6),mixed,0.022158,0.010136,10,0
+google_gemma-3-4b-it,opinion_distr_,0.5,0.75,high (4-6),high (4-6),supporting neighbors,0.890337,0.027017,10,0
+google_gemma-3-4b-it,opinion_distr_,0.5,1.0,high (4-6),high (4-6),opposing neighbors,0.847641,0.114689,7,0
+google_gemma-3-4b-it,opinion_distr_,0.5,1.0,high (4-6),high (4-6),mixed,0.001468,0.003002,10,0
+google_gemma-3-4b-it,opinion_distr_,0.5,1.0,high (4-6),high (4-6),supporting neighbors,0.939264,0.051033,8,0
+meta-llama_Llama-3.2-3B-Instruct,opinion_distr_,0.5,0.0,low (0-3),low (0-3),opposing neighbors,0.395387,0.091603,10,0
+meta-llama_Llama-3.2-3B-Instruct,opinion_distr_,0.5,0.0,low (0-3),low (0-3),mixed,0.112266,0.028629,10,0
+meta-llama_Llama-3.2-3B-Instruct,opinion_distr_,0.5,0.0,low (0-3),low (0-3),supporting neighbors,0.631987,0.132984,10,0
+meta-llama_Llama-3.2-3B-Instruct,opinion_distr_,0.5,0.0,low (0-3),high (4-6),opposing neighbors,0.552973,0.131012,10,0
+meta-llama_Llama-3.2-3B-Instruct,opinion_distr_,0.5,0.0,low (0-3),high (4-6),mixed,0.535832,0.044879,10,0
+meta-llama_Llama-3.2-3B-Instruct,opinion_distr_,0.5,0.0,low (0-3),high (4-6),supporting neighbors,0.999822,0.000534,10,0
+meta-llama_Llama-3.2-3B-Instruct,opinion_distr_,0.5,0.0,high (4-6),low (0-3),mixed,0.469671,0.054738,10,0
+meta-llama_Llama-3.2-3B-Instruct,opinion_distr_,0.5,0.0,high (4-6),low (0-3),supporting neighbors,0.990476,0.008419,10,0
+meta-llama_Llama-3.2-3B-Instruct,opinion_distr_,0.5,0.0,high (4-6),high (4-6),opposing neighbors,0.676530,0.028840,10,0
+meta-llama_Llama-3.2-3B-Instruct,opinion_distr_,0.5,0.0,high (4-6),high (4-6),mixed,0.049660,0.025248,10,0
+meta-llama_Llama-3.2-3B-Instruct,opinion_distr_,0.5,0.0,high (4-6),high (4-6),supporting neighbors,0.853379,0.020071,10,0
+meta-llama_Llama-3.2-3B-Instruct,opinion_distr_,0.5,0.25,low (0-3),low (0-3),opposing neighbors,0.457650,0.094826,10,0
+meta-llama_Llama-3.2-3B-Instruct,opinion_distr_,0.5,0.25,low (0-3),low (0-3),mixed,0.163444,0.045408,10,0
+meta-llama_Llama-3.2-3B-Instruct,opinion_distr_,0.5,0.25,low (0-3),low (0-3),supporting neighbors,0.651736,0.060966,10,0
+meta-llama_Llama-3.2-3B-Instruct,opinion_distr_,0.5,0.25,low (0-3),high (4-6),opposing neighbors,0.518978,0.126433,10,0
+meta-llama_Llama-3.2-3B-Instruct,opinion_distr_,0.5,0.25,low (0-3),high (4-6),mixed,0.606852,0.032104,10,0
+meta-llama_Llama-3.2-3B-Instruct,opinion_distr_,0.5,0.25,low (0-3),high (4-6),supporting neighbors,0.998861,0.001742,10,0
+meta-llama_Llama-3.2-3B-Instruct,opinion_distr_,0.5,0.25,high (4-6),low (0-3),mixed,0.537521,0.028562,10,0
+meta-llama_Llama-3.2-3B-Instruct,opinion_distr_,0.5,0.25,high (4-6),low (0-3),supporting neighbors,0.969584,0.019390,10,0
+meta-llama_Llama-3.2-3B-Instruct,opinion_distr_,0.5,0.25,high (4-6),high (4-6),opposing neighbors,0.708422,0.040073,10,0
+meta-llama_Llama-3.2-3B-Instruct,opinion_distr_,0.5,0.25,high (4-6),high (4-6),mixed,0.062653,0.025525,10,0
+meta-llama_Llama-3.2-3B-Instruct,opinion_distr_,0.5,0.25,high (4-6),high (4-6),supporting neighbors,0.857057,0.009187,10,0
+meta-llama_Llama-3.2-3B-Instruct,opinion_distr_,0.5,0.5,low (0-3),low (0-3),opposing neighbors,0.540871,0.068236,10,0
+meta-llama_Llama-3.2-3B-Instruct,opinion_distr_,0.5,0.5,low (0-3),low (0-3),mixed,0.167274,0.032199,10,0
+meta-llama_Llama-3.2-3B-Instruct,opinion_distr_,0.5,0.5,low (0-3),low (0-3),supporting neighbors,0.696092,0.051819,10,0
+meta-llama_Llama-3.2-3B-Instruct,opinion_distr_,0.5,0.5,low (0-3),high (4-6),opposing neighbors,0.637662,0.057449,10,0
+meta-llama_Llama-3.2-3B-Instruct,opinion_distr_,0.5,0.5,low (0-3),high (4-6),mixed,0.642898,0.036583,10,0
+meta-llama_Llama-3.2-3B-Instruct,opinion_distr_,0.5,0.5,low (0-3),high (4-6),supporting neighbors,0.994528,0.003740,10,0
+meta-llama_Llama-3.2-3B-Instruct,opinion_distr_,0.5,0.5,high (4-6),low (0-3),opposing neighbors,0.780571,0.034780,10,0
+meta-llama_Llama-3.2-3B-Instruct,opinion_distr_,0.5,0.5,high (4-6),low (0-3),mixed,0.578085,0.036589,10,0
+meta-llama_Llama-3.2-3B-Instruct,opinion_distr_,0.5,0.5,high (4-6),low (0-3),supporting neighbors,0.904292,0.044283,10,0
+meta-llama_Llama-3.2-3B-Instruct,opinion_distr_,0.5,0.5,high (4-6),high (4-6),opposing neighbors,0.705046,0.034770,10,0
+meta-llama_Llama-3.2-3B-Instruct,opinion_distr_,0.5,0.5,high (4-6),high (4-6),mixed,0.047135,0.021830,10,0
+meta-llama_Llama-3.2-3B-Instruct,opinion_distr_,0.5,0.5,high (4-6),high (4-6),supporting neighbors,0.868381,0.013532,10,0
+meta-llama_Llama-3.2-3B-Instruct,opinion_distr_,0.5,0.75,low (0-3),low (0-3),opposing neighbors,0.582165,0.036395,10,0
+meta-llama_Llama-3.2-3B-Instruct,opinion_distr_,0.5,0.75,low (0-3),low (0-3),mixed,0.180618,0.024035,10,0
+meta-llama_Llama-3.2-3B-Instruct,opinion_distr_,0.5,0.75,low (0-3),low (0-3),supporting neighbors,0.731737,0.045850,10,0
+meta-llama_Llama-3.2-3B-Instruct,opinion_distr_,0.5,0.75,low (0-3),high (4-6),opposing neighbors,0.744839,0.069298,10,0.008
+meta-llama_Llama-3.2-3B-Instruct,opinion_distr_,0.5,0.75,low (0-3),high (4-6),mixed,0.655972,0.025138,10,0
+meta-llama_Llama-3.2-3B-Instruct,opinion_distr_,0.5,0.75,low (0-3),high (4-6),supporting neighbors,0.981645,0.014112,10,0
+meta-llama_Llama-3.2-3B-Instruct,opinion_distr_,0.5,0.75,high (4-6),low (0-3),opposing neighbors,0.859814,0.016527,10,0
+meta-llama_Llama-3.2-3B-Instruct,opinion_distr_,0.5,0.75,high (4-6),low (0-3),mixed,0.565036,0.043489,10,0
+meta-llama_Llama-3.2-3B-Instruct,opinion_distr_,0.5,0.75,high (4-6),high (4-6),opposing neighbors,0.739735,0.034938,10,0
+meta-llama_Llama-3.2-3B-Instruct,opinion_distr_,0.5,0.75,high (4-6),high (4-6),mixed,0.038091,0.011027,10,0
+meta-llama_Llama-3.2-3B-Instruct,opinion_distr_,0.5,0.75,high (4-6),high (4-6),supporting neighbors,0.872228,0.014568,10,0
+meta-llama_Llama-3.2-3B-Instruct,opinion_distr_,0.5,1.0,low (0-3),low (0-3),opposing neighbors,0.505367,0.071072,8,0
+meta-llama_Llama-3.2-3B-Instruct,opinion_distr_,0.5,1.0,low (0-3),low (0-3),mixed,0.018765,0.031065,10,0
+meta-llama_Llama-3.2-3B-Instruct,opinion_distr_,0.5,1.0,low (0-3),low (0-3),supporting neighbors,0.919952,0.050956,9,0
+meta-llama_Llama-3.2-3B-Instruct,opinion_distr_,0.5,1.0,low (0-3),high (4-6),opposing neighbors,0.967971,0.050081,10,0
+meta-llama_Llama-3.2-3B-Instruct,opinion_distr_,0.5,1.0,low (0-3),high (4-6),mixed,0.149483,0.211440,10,0
+meta-llama_Llama-3.2-3B-Instruct,opinion_distr_,0.5,1.0,high (4-6),low (0-3),mixed,0.221075,0.225286,10,0
+meta-llama_Llama-3.2-3B-Instruct,opinion_distr_,0.5,1.0,high (4-6),high (4-6),opposing neighbors,0.772060,0.035084,10,0
+meta-llama_Llama-3.2-3B-Instruct,opinion_distr_,0.5,1.0,high (4-6),high (4-6),mixed,0.010929,0.007934,10,0
+meta-llama_Llama-3.2-3B-Instruct,opinion_distr_,0.5,1.0,high (4-6),high (4-6),supporting neighbors,0.864337,0.015631,10,0

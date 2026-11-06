@@ -1,19 +1,16 @@
+# Raw simulation outputs and downloaded archives are hosted on Zenodo.
+/results/
+*.jsonl
+*.zip
+
+# Local environments, caches, and generated figures
+.venv/
+__pycache__/
+*.py[cod]
 .cache/
-llm_network/__pycache__/__init__.cpython-311.pyc
-llm_network/__pycache__/__init__.cpython-312.pyc
-llm_network/__pycache__/simulator.cpython-311.pyc
-llm_network/classes/__pycache__/__init__.cpython-311.pyc
-llm_network/classes/__pycache__/agent.cpython-311.pyc
-llm_network/classes/__pycache__/monitor_bounded.cpython-311.pyc
-llm_network/classes/__pycache__/monitor_opinion_dist.cpython-311.pyc
-llm_network/classes/__pycache__/monitor_theory_of_mind.cpython-311.pyc
-llm_network/classes/__pycache__/monitor.cpython-311.pyc
-llm_network/classes/__pycache__/network_loader.cpython-311.pyc
-llm_network/viz/__pycache__/__init__.cpython-311.pyc
-llm_network/viz/__pycache__/__init__.cpython-312.pyc
-llm_network/viz/__pycache__/opinion_area.cpython-311.pyc
-llm_network/viz/__pycache__/opinion_evolution.cpython-311.pyc
-llm_network/viz/__pycache__/opinion_evolution.cpython-312.pyc
-llm_network/viz/__pycache__/opinion_trends.cpython-311.pyc
-llm_network/viz/__pycache__/plot_config.cpython-311.pyc
-llm_network/viz/__pycache__/shift_proba.cpython-311.pyc
+.pytest_cache/
+.DS_Store
+__MACOSX/
+.idea/
+.vscode/
+/reproduced_figures/

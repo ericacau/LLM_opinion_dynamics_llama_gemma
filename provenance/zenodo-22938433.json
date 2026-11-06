@@ -1,0 +1,43 @@
+{
+  "record": 22938433,
+  "doi": "10.5281/zenodo.22938433",
+  "url": "https://zenodo.org/records/22938433",
+  "files": [
+    {
+      "id": "1b710af5-6207-45a8-8fa9-05f8b9fcde09",
+      "key": "README.md",
+      "size": 1425,
+      "checksum": "md5:5ca2cec147587517352378c89e62531a",
+      "links": {
+        "self": "https://zenodo.org/api/records/22938433/files/README.md/content"
+      }
+    },
+    {
+      "id": "5814109a-93d9-408c-be10-367a44aefa1f",
+      "key": "results.zip",
+      "size": 4408580349,
+      "checksum": "md5:e358e70755d7d73e0511848084894a92",
+      "links": {
+        "self": "https://zenodo.org/api/records/22938433/files/results.zip/content"
+      }
+    },
+    {
+      "id": "f62616fe-9c95-495b-b443-51ae2620c5e5",
+      "key": "LLM_OD_model.zip",
+      "size": 1105576,
+      "checksum": "md5:1c9b75972625148e5dd0abf57a1c130b",
+      "links": {
+        "self": "https://zenodo.org/api/records/22938433/files/LLM_OD_model.zip/content"
+      }
+    },
+    {
+      "id": "f72122d0-66bf-4c81-b970-44b5f1a8e1ac",
+      "key": "analysis.zip",
+      "size": 10615142,
+      "checksum": "md5:abe3fb61841a2b9cb86723a756a34358",
+      "links": {
+        "self": "https://zenodo.org/api/records/22938433/files/analysis.zip/content"
+      }
+    }
+  ]
+}
